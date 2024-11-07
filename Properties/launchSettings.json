@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "durablefunctionsdemo": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7197"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "DockerfileRunArguments": "--init",
+      "httpPort": 32780,
+      "useSSL": false
+    }
+  }
+}
